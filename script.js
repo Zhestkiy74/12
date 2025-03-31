@@ -1,16 +1,16 @@
 // Инициализация карточек при первом запуске
 function initializeCards() {
     const defaultCards = [
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
-        { image: "./image1.png", title: "Холоа", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
+        { image: "./image1.png", title: "Холоп", description: "Комедия" },
     ];
 
     if (!localStorage.getItem('cards')) {
